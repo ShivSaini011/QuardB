@@ -44,11 +44,7 @@
   
 
 
-  /* addprodect */
-  .products-container {
-    padding: 20px;
-  }
-  
+
   .product-list {
     display: flex;
     flex-direction: column;
@@ -70,17 +66,5 @@
     gap: 20px;
     flex-wrap: wrap;
   }
-  
-  .product-card {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 10px;
-    width: 200px;
-    text-align: center;
-  }
-  
-  .product-card h3 {
-    margin: 10px 0;
-  }
-  
+
+ 

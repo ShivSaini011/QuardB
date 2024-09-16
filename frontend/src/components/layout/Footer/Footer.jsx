@@ -16,10 +16,10 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex gap-10 items-start self-stretch my-auto text-sm leading-loose text-white min-w-[240px]">
-              <div>Home</div>
-              <div>Shop</div>
-              <div>Product</div>
-              <div>Blog</div>
+              <div><a href="/">Home</a></div>
+              <div><a href="/shop">Shop</a></div>
+              <div><a href="/Product">Product</a></div>
+              <div><a href="/Blog">Blog</a></div>
               <div>Contact Us</div>
             </div>
           </div>
@@ -34,16 +34,19 @@ const Footer = () => {
           </div>
           <div className="flex gap-6 items-start">
             <img
+alt="img"
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/542b8ab12e96ddbd2032ad5b8ee15f958cdeb1edb9a9f5534c05e5c42de20985?placeholderIfAbsent=true&apiKey=a56c72d961194001a727fb61f8f2af24"
               className="object-contain shrink-0 w-6 aspect-square"
             />
             <img
+alt="img"
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff840f9d1805db28c0b930701a2c7ea37a67f46ff4e43fd0251294fbaae8b048?placeholderIfAbsent=true&apiKey=a56c72d961194001a727fb61f8f2af24"
               className="object-contain shrink-0 w-6 aspect-square"
             />
             <img
+alt="img"
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/ab371772d26092588a9e0466276a51356cae76e306c72727f1f1b41869f7c384?placeholderIfAbsent=true&apiKey=a56c72d961194001a727fb61f8f2af24"
               className="object-contain shrink-0 w-6 aspect-square"
