@@ -9,6 +9,7 @@ import { useAlert } from "react-alert";
 import Benefits from "./Benefits.jsx";
 import Category from "./Category.jsx";
 import NewArrivals from "./NewArrivals.jsx";
+import ImageSlider from "./ImageSlider.jsx";
 
 const Home = () => {
   const alert = useAlert();
@@ -31,6 +32,7 @@ const Home = () => {
         <Loading />
       ) : (
         <>
+          <ImageSlider/>
           <Category/>
           <Benefits/>
           <NewArrivals/>
