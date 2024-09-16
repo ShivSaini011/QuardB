@@ -2,7 +2,7 @@ import React from "react";
 
 const Benefits = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto containerexample">
       <div className="flex justify-between space-x-4 p-4">
         <div className="bg-gray-100 p-5 hover:-translate-y-1 transition-transform ease-in-out duration-300 w-1/5">
           <img

@@ -10,6 +10,8 @@ import Benefits from "./Benefits.jsx";
 import Category from "./Category.jsx";
 import NewArrivals from "./NewArrivals.jsx";
 import ImageSlider from "./ImageSlider.jsx";
+import PromoBanner from "./PromoBanner.jsx";
+import Newsletter from "./Newsletter.jsx";
 
 const Home = () => {
   const alert = useAlert();
@@ -36,6 +38,10 @@ const Home = () => {
           <Category/>
           <Benefits/>
           <NewArrivals/>
+          <PromoBanner/>
+          <Newsletter/>
+
+
         </>
       )}
     </>

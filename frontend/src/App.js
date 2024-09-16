@@ -54,7 +54,7 @@ function App() {
   return (
     <>
       <Router>
-        {isAuthenticated && <Navbar/>}
+        {<Navbar/>}
         {/* {isAuthenticated && <UserOptions user={user} />} */}
         <Routes>
           <Route exact path="/" Component={Home} />
@@ -129,7 +129,7 @@ function App() {
           {isAuthenticated && user.role === "admin" ? (
             <Route exact path="/admin/dashboard" Component={Dashboard} />
           ) : (
-            <Route exact path="/admin/dashoardb" Component={Login} />
+            <Route exact path="/admin/dashboard" Component={Login} />
           )}
           {isAuthenticated && user.role === "admin" ? (
             <Route exact path="/admin/products" Component={AllProducts} />
